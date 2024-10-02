@@ -603,7 +603,7 @@
       <div class="type-title">
         <span class="title">Results</span>
         <div class="body">
-<pre style="font-size: 2rem; background-color: black; color: lightgray; overflow: hidden;">
+<pre style="font-size: 3vmin; background-color: black; color: lightgray; overflow: hidden;">
 &lt;MyIcon solid inline strokeClassName="animated-stroke" /&gt;
 &lt;MyIcon color="white" height="100px" /&gt;
 </pre>
@@ -616,7 +616,7 @@
       <div class="type-title">
         <span class="title">Results</span>
         <div class="body">
-<pre style="font-size: 2rem; background-color: black; color: lightgray; overflow: hidden;">
+<pre style="font-size: 3vmin; background-color: black; color: lightgray; overflow: hidden;">
 const {
   inline=false,
   solid=false,
@@ -646,7 +646,7 @@ const lineProps = {
       <div class="type-title">
         <span class="title">Results</span>
         <div class="body">
-<pre style="font-size: 2rem; background-color: black; color: lightgray; overflow: hidden;">
+<pre style="font-size: 3vmin; background-color: black; color: lightgray; overflow: hidden;">
 &lt;svg
   viewBox={`0 ${inline?0:201.234} 350 ${inline?563.643:362.409}`}
   className={className}
@@ -679,7 +679,7 @@ const lineProps = {
           <li>No real font metrics in CSS, can only guess from reference fonts</li>
           <li>1em is not the actual height of a font, so we have to guess again</li>
           <li>Enlarged inline icons will take full height space (ascender+descender), growing the line</li>
-          <li>Not friendly with atlasing</li>
+          <li>Atlasing requires further work and some compromises</li>
         </ul>
         <span class="footer-right">Icons with Superpowers</span>
       </div>
